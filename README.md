@@ -1,2 +1,1 @@
-# Ore-classification
-Final year project
+# Ore-classification-system

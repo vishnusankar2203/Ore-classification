@@ -1,0 +1,26 @@
+.result-container {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 1.5rem;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.result-container:hover {
+  transform: translateY(-2px);
+}
+
+.result-container h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin-bottom: 0.75rem;
+}
+
+.result-container p {
+  font-size: 1rem;
+  color: #374151;
+  margin: 0.25rem 0;
+}

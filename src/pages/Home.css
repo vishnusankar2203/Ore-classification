@@ -1,0 +1,85 @@
+/* Home Page Styles */
+.home-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fafb; /* Light gray background for the page */
+    min-height: 100vh;
+    padding-bottom: 50px;
+  }
+  
+  /* Header Styling */
+  .header {
+    background-color: #2563eb; /* Tailwind blue */
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  /* Content Section Styling */
+  .content {
+    padding: 20px;
+  }
+  
+  /* Upload Section */
+  .upload-section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Result Section */
+  .result-section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* About Section */
+  .about-section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Hover Effect for Sections */
+  .upload-section:hover, .result-section:hover, .about-section:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .content {
+      padding: 15px;
+    }
+  
+    .header h1 {
+      font-size: 2rem;
+    }
+  
+    .upload-section, .result-section, .about-section {
+      padding: 15px;
+    }
+  }
+  
